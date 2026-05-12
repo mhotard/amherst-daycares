@@ -1,5 +1,726 @@
 {
-  "totalDaycares": 0,
+  "totalDaycares": 18,
   "lastUpdated": "2026-05-11",
-  "daycares": []
+  "daycares": [
+    {
+      "id": "all-about-learning-amherst",
+      "name": "All About Learning",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "7 Pomeroy Lane, Unit 4, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 256-0013"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "amherst-montessori-school",
+      "name": "Amherst Montessori School",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "27 Pomeroy Lane, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 253-3101"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "capacidad-fort-river-amherst",
+      "name": "Capacidad - Fort River School",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "70 South East St., Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 559-7182. School-based program at Fort River Elementary."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "ceec-umass-amherst",
+      "name": "Center for Early Education and Care",
+      "organization": "University of Massachusetts Amherst",
+      "location": {
+        "town": "Amherst",
+        "address": "21 Clubhouse Dr, Amherst, MA 01003",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": "UMass Amherst faculty, staff, and students",
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": "University-operated childcare center on the UMass Amherst campus. Priority enrollment for UMass-affiliated families.",
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 545-1566"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "waitlist", "source.url"]
+    },
+    {
+      "id": "community-action-amherst-child-care",
+      "name": "Amherst Community Child Care",
+      "organization": "Community Action Pioneer Valley",
+      "location": {
+        "town": "Amherst",
+        "address": "61 Strong Street, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": true
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": "Nonprofit childcare center operated by Community Action Pioneer Valley. Accepts childcare subsidies and vouchers.",
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 548-1288"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "waitlist", "source.url"]
+    },
+    {
+      "id": "cushman-scott-childrens-center-amherst",
+      "name": "Cushman Scott Children's Center",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "71 Henry St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 549-1167"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "hampshire-college-early-learning-center",
+      "name": "Hampshire College Early Learning Center",
+      "organization": "Hampshire College",
+      "location": {
+        "town": "Amherst",
+        "address": "893 West St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": "Hampshire College employees",
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": "Childcare center on the Hampshire College campus with priority enrollment for college employees.",
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 559-5706"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "waitlist", "source.url"]
+    },
+    {
+      "id": "harb-amal-amherst",
+      "name": "Harb, Amal",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "687 Main Street, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": true,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Listed as Informal Child Care with EEC."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "lugo-amanda-amherst",
+      "name": "Lugo, Amanda",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "52 Jeffrey Lane, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": true,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (978) 500-3070. Licensed family child care."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "marks-meadow-after-school-amherst",
+      "name": "Mark's Meadow After School Day Care",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "71 Strong St., Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+      },
+      "ages": {
+        "minMonths": 60,
+        "maxYears": 12
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": "part-time",
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": "After-school childcare program serving school-age children.",
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 549-8406. After-school program; hours and exact age range should be verified."
+      },
+      "incomplete": ["hours", "tuition", "summerClosures", "waitlist", "source.url"]
+    },
+    {
+      "id": "prime-time-crocker-farm-amherst",
+      "name": "Prime Time at Crocker Farm Elementary School",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "280 West St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+      },
+      "ages": {
+        "minMonths": 60,
+        "maxYears": 12
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": "part-time",
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": "After-school childcare program at Crocker Farm Elementary School serving school-age children.",
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 259-3177. After-school program; hours and exact age range should be verified."
+      },
+      "incomplete": ["hours", "tuition", "summerClosures", "waitlist", "source.url"]
+    },
+    {
+      "id": "renaissance-school-amherst",
+      "name": "Renaissance School Inc.",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "867 N Pleasant St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 548-9696"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "riahi-celia-amherst",
+      "name": "Riahi, Celia",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "135 Cottage St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": true,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 348-6035. Licensed family child care."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "spring-street-preschool-amherst",
+      "name": "Spring Street Preschool",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "64 Spring St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 256-8442"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "suarez-dania-amherst",
+      "name": "Suarez, Dania",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "123 Logtown Rd, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": true,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 687-1096. Licensed family child care."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "warbelton-gottschall-sandra-amherst",
+      "name": "Warbelton-Gottschall, Sandra",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "956 N Pleasant St, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": true,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 549-4785. Licensed family child care."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "woodside-childrens-center-amherst",
+      "name": "Woodside Children's Center",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "155 Woodside Ave, Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": false,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (413) 253-2604"
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    },
+    {
+      "id": "wu-huey-amherst",
+      "name": "Wu, Huey",
+      "organization": null,
+      "location": {
+        "town": "Amherst",
+        "address": "77 Eames Ave., Amherst, MA 01002",
+        "region": "Hampshire"
+      },
+      "hours": {
+        "startTime": null,
+        "endTime": null,
+        "daysOfWeek": []
+      },
+      "ages": {
+        "minMonths": null,
+        "maxYears": null
+      },
+      "tuition": {
+        "perWeek": null,
+        "perMonth": null,
+        "enrollmentFee": null,
+        "siblingDiscount": null,
+        "notes": null,
+        "subsidyAccepted": null
+      },
+      "schedule": null,
+      "priorityAffiliation": null,
+      "summerClosures": null,
+      "homeBased": true,
+      "waitlist": null,
+      "description": null,
+      "source": {
+        "url": null,
+        "lastVerified": "2026-05-11",
+        "sourceList": "EEC Licensed Provider Directory",
+        "notes": "Phone: (240) 454-4611. Licensed family child care."
+      },
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+    }
+  ]
 }

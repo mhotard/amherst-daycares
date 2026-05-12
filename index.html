@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Valley Daycares</title>
+    <meta name="description"
+        content="Searchable database of daycares in the Pioneer Valley area of Massachusetts - Amherst, Northampton, and surrounding towns.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Pioneer Valley Daycares</h1>
+            <p class="subtitle">Daycares near Amherst, MA</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search and Filters -->
+        <section class="filters-section">
+            <div class="search-box">
+                <input type="text" id="search-input"
+                    placeholder="Search by name, town, or organization...">
+            </div>
+
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label for="town-select">Town</label>
+                    <select id="town-select">
+                        <option value="">All Towns</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="tuition-max">Max Tuition/Month</label>
+                    <select id="tuition-max">
+                        <option value="">Any</option>
+                        <option value="1000">Under $1,000</option>
+                        <option value="1500">Under $1,500</option>
+                        <option value="2000">Under $2,000</option>
+                        <option value="2500">Under $2,500</option>
+                        <option value="3000">Under $3,000</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="filters-checkboxes">
+                <span class="filter-group-label">Ages served:</span>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-infants">
+                    Infants (0–12mo)
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-toddlers">
+                    Toddlers (1–3yr)
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-preschool">
+                    Preschool (3–5yr)
+                </label>
+            </div>
+
+            <div class="filters-checkboxes">
+                <span class="filter-group-label">Schedule:</span>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-fulltime">
+                    Full-time
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-parttime">
+                    Part-time
+                </label>
+            </div>
+
+            <div class="filters-checkboxes">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-homebased">
+                    Home-based
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-subsidy">
+                    Subsidy accepted
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-yearround">
+                    Open year-round
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="filter-nowaitlist">
+                    No waitlist
+                </label>
+            </div>
+
+            <div class="filter-actions">
+                <button id="clear-filters" class="btn-secondary">Clear Filters</button>
+                <span id="results-count" aria-live="polite">0 daycares found</span>
+                <div class="view-toggle">
+                    <button id="view-grid" class="btn-toggle active" aria-label="Grid View" title="Grid View">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                    </button>
+                    <button id="view-list" class="btn-toggle" aria-label="List View" title="List View">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="8" y1="6" x2="21" y2="6"></line>
+                            <line x1="8" y1="12" x2="21" y2="12"></line>
+                            <line x1="8" y1="18" x2="21" y2="18"></line>
+                            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results -->
+        <section class="results-section">
+            <div id="daycares-grid" class="daycares-grid">
+                <!-- Daycare cards inserted here -->
+            </div>
+
+            <div id="daycares-table-container" class="daycares-table-container">
+                <table class="daycares-table">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-sort="name">Name</th>
+                            <th class="sortable" data-sort="tuition">Tuition/Month</th>
+                            <th class="sortable" data-sort="ages">Ages</th>
+                            <th class="sortable" data-sort="town">Town</th>
+                            <th>Hours</th>
+                            <th>Schedule</th>
+                        </tr>
+                    </thead>
+                    <tbody id="daycares-table-body">
+                        <!-- Rows inserted here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="no-results" class="no-results" style="display: none;">
+                <p>No daycares match your current filters.</p>
+                <p>Try adjusting your search or <button id="clear-filters-alt" class="btn-link">clear all filters</button>.</p>
+            </div>
+            <div id="loading" class="loading">
+                <p>Loading daycares...</p>
+            </div>
+        </section>
+
+        <!-- Suggest a Daycare -->
+        <section class="suggest-section">
+            <h2>Know a daycare we're missing?</h2>
+            <p>Help us keep this list complete! Submit a suggestion and we'll add it to the database.</p>
+            <a href="#suggest-form" class="btn-primary" id="suggest-btn">Suggest a Daycare</a>
+
+            <div id="suggest-form" class="suggest-form" style="display: none;">
+                <form id="suggestion-form" action="https://formspree.io/f/mwvvknwb" method="POST">
+                    <div class="form-group">
+                        <label for="daycare-name">Daycare Name *</label>
+                        <input type="text" id="daycare-name" name="daycare-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="daycare-website">Website URL</label>
+                        <input type="url" id="daycare-website" name="daycare-website" placeholder="https://...">
+                    </div>
+                    <div class="form-group">
+                        <label for="daycare-location">Location/Town</label>
+                        <input type="text" id="daycare-location" name="daycare-location">
+                    </div>
+                    <div class="form-group">
+                        <label for="daycare-details">Any other details</label>
+                        <textarea id="daycare-details" name="daycare-details" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="submitter-email">Your email (optional, for follow-up)</label>
+                        <input type="email" id="submitter-email" name="submitter-email">
+                    </div>
+                    <button type="submit" class="btn-primary">Submit Suggestion</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Last updated: <span id="last-updated">--</span></p>
+            <p>Data is collected from public sources. Please verify details directly with each daycare.</p>
+            <p>Missing info? See a mistake? <a href="#suggest-form" id="footer-suggest">Let us know</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Daycare Detail Modal -->
+    <div id="daycare-modal" class="modal" style="display: none;">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <div id="modal-body">
+                <!-- Content inserted by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

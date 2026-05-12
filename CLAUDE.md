@@ -21,12 +21,14 @@ Each daycare in `daycares.json` has:
 - `location`: { town, address, region }
 - `hours`: { startTime, endTime, daysOfWeek[] }
 - `ages`: { minMonths, maxYears } — min in months (infant care starts at 6 weeks = 1.5 months), max in years
-- `tuition`: { perWeek, perMonth, notes, subsidyAccepted }
-- `priorityAffiliation`: string or null — some daycares give enrollment priority to specific groups (e.g. "UMass faculty/staff", "Amherst College employees")
+- `tuition`: { perWeek, perMonth, enrollmentFee, siblingDiscount, notes, subsidyAccepted }
+- `schedule`: `"full-time"` | `"part-time"` | `"both"` — whether the daycare offers full-time, part-time, or flexible scheduling
+- `priorityAffiliation`: string or null — some daycares give enrollment priority to specific groups (e.g. "UMass faculty/staff", "Amherst College employees"); displayed as informational text
 - `summerClosures`: string — describes any summer closure schedule (e.g. "Closed last 2 weeks of August", "Open year-round")
 - `homeBased`: boolean — true if licensed family home daycare, false if center
+- `waitlist`: boolean — true if currently has a waitlist
 - `description`: string
-- `source`: { url, lastVerified, notes } — notes used if not found via standard web search
+- `source`: { url, lastVerified, sourceList, notes } — `sourceList` is the name of a master list or directory if that's where this entry was first found (e.g. "EEC Licensed Provider Directory", "Hampshire County Child Care Resource Guide"); `notes` for anything else non-standard
 - `incomplete`: array of field names that are missing or unverified
 
 ## Example Entry
@@ -53,21 +55,36 @@ Each daycare in `daycares.json` has:
   "tuition": {
     "perWeek": null,
     "perMonth": 1800,
+    "enrollmentFee": 100,
+    "siblingDiscount": "10% off second child",
     "notes": "Sliding scale available",
     "subsidyAccepted": true
   },
+  "schedule": "full-time",
   "priorityAffiliation": null,
   "summerClosures": "Open year-round",
   "homeBased": false,
+  "waitlist": false,
   "description": "...",
   "source": {
     "url": "https://example.com",
     "lastVerified": "2026-05-11",
+    "sourceList": "EEC Licensed Provider Directory",
     "notes": null
   },
   "incomplete": ["tuition.perWeek"]
 }
 ```
+
+## Filters
+
+Checkbox/toggle filters in the UI:
+- **Schedule**: Full-time, Part-time
+- **Type**: Home-based, Center-based
+- **Ages**: Infants (0–12mo), Toddlers (1–3yr), Preschool (3–5yr)
+- **Subsidy accepted**: checkbox
+- **Open year-round**: checkbox (derived from summerClosures)
+- **No waitlist**: checkbox (waitlist === false)
 
 ## Common Tasks
 

@@ -12,35 +12,35 @@
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "7:30am",
+        "endTime": "5:30pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 2,
+        "maxYears": 12
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
-        "siblingDiscount": null,
-        "notes": null,
-        "subsidyAccepted": null
+        "siblingDiscount": "Available",
+        "notes": "Military family discount available. Accepts subsidized childcare vouchers.",
+        "subsidyAccepted": true
       },
-      "schedule": null,
+      "schedule": "both",
       "priorityAffiliation": null,
       "summerClosures": null,
       "homeBased": false,
       "waitlist": null,
-      "description": null,
+      "description": "Family-owned childcare center offering infant through school-age care. Programs include Infant (8wk–15mo), Toddler (15–33mo), Preschool (33mo–4yr), and Pre-K (4yr–kindergarten). Full-time, part-time, before- and after-school care available. English and Spanish spoken.",
       "source": {
-        "url": null,
+        "url": "https://www.allaboutlearningpreschool.com/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 256-0013"
+        "notes": "Phone: (413) 256-0013. Email: Allaboutlearning1989@gmail.com. EEC License #68190."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["tuition", "waitlist", "summerClosures"]
     },
     {
       "id": "amherst-montessori-school",
@@ -52,9 +52,9 @@
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "8:15am",
+        "endTime": "3:15pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
         "minMonths": 3,
@@ -62,65 +62,65 @@
       },
       "tuition": {
         "perWeek": null,
-        "perMonth": null,
-        "enrollmentFee": null,
-        "siblingDiscount": null,
-        "notes": "Peg Smith Scholarship Fund available for financial assistance.",
-        "subsidyAccepted": null
+        "perMonth": 2019,
+        "enrollmentFee": 50,
+        "siblingDiscount": "5% off for additional siblings (not combinable with financial aid)",
+        "notes": "Tuition varies by program and schedule. Infant (5-day): $2,111–$2,477/mo. Toddler: $1,320–$2,309/mo. Children's House: $1,683–$2,020/mo. Elementary: $2,020/mo. $50 application fee, $1,500 enrollment deposit. Financial aid available (5%–50% of tuition). MA childcare vouchers and UMass employee assistance accepted.",
+        "subsidyAccepted": true
       },
-      "schedule": null,
+      "schedule": "both",
       "priorityAffiliation": null,
-      "summerClosures": "Summer Discovery program available in summer.",
+      "summerClosures": "Summer Discovery program available.",
       "homeBased": false,
       "waitlist": null,
-      "description": "Authentic Montessori programs from infant through elementary. Programs include Infant/Toddler (3 months–3 years), Children's House (3–6 years), and Elementary (6–12 years). Spanish language immersion available for ages 3–6.",
+      "description": "Authentic Montessori programs from infant through elementary. Programs include Infant/Toddler (3 months–3 years), Children's House (3–6 years), and Elementary (6–12 years). Spanish language immersion available for ages 3–6. Financial aid available.",
       "source": {
         "url": "https://amherstmontessori.org/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
         "notes": "Phone: (413) 253-3101"
       },
-      "incomplete": ["hours", "tuition", "schedule", "waitlist"]
+      "incomplete": ["waitlist"]
     },
     {
       "id": "capacidad-fort-river-amherst",
       "name": "Capacidad - Fort River School",
-      "organization": null,
+      "organization": "Capacidad Programs",
       "location": {
         "town": "Amherst",
         "address": "70 South East St., Amherst, MA 01002",
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "3:10pm",
+        "endTime": "5:30pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 48,
+        "maxYears": 12
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
-        "siblingDiscount": null,
-        "notes": null,
-        "subsidyAccepted": null
+        "siblingDiscount": "Available",
+        "notes": "Sliding fee scale. Childcare vouchers and private scholarships accepted.",
+        "subsidyAccepted": true
       },
-      "schedule": null,
+      "schedule": "part-time",
       "priorityAffiliation": null,
-      "summerClosures": null,
+      "summerClosures": "No summer program in 2025 or 2026.",
       "homeBased": false,
-      "waitlist": null,
-      "description": null,
+      "waitlist": true,
+      "description": "Bilingual (English/Spanish) after-school childcare program at Fort River Elementary School. Part-time and drop-in care available. Sliding fee scale and childcare vouchers accepted. Currently full with waitlist.",
       "source": {
-        "url": null,
+        "url": "https://capacidadprograms.org/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 559-7182. School-based program at Fort River Elementary."
+        "notes": "Phone: (413) 253-5659. EEC License #7658. Note: EEC license status showed as 'not renewed' in May 2026 — verify current status directly."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["tuition"]
     },
     {
       "id": "ceec-umass-amherst",
@@ -252,35 +252,35 @@
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "8:15am",
+        "endTime": "3:30pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 2,
+        "maxYears": 5
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": "Tuition billed monthly, one month in advance.",
-        "subsidyAccepted": null
+        "notes": "Tuition billed monthly, one month in advance. Does not participate in subsidized childcare voucher program.",
+        "subsidyAccepted": false
       },
-      "schedule": null,
+      "schedule": "full-time",
       "priorityAffiliation": "Hampshire College families and Five College Consortium affiliates",
-      "summerClosures": null,
+      "summerClosures": "8-week summer program available with same hours.",
       "homeBased": false,
       "waitlist": true,
-      "description": "Licensed childcare center on the Hampshire College campus serving up to 44 children (infants through preschool). Opened in 1981. Priority for Hampshire College families and Five College Consortium affiliates; community families also welcome.",
+      "description": "Licensed childcare center on the Hampshire College campus serving up to 36 children (2 months through pre-K). Opened in 1981. Priority for Hampshire College families and Five College Consortium affiliates; community families also welcome. Does not accept childcare vouchers.",
       "source": {
         "url": "https://www.hampshire.edu/offices/finance/departments/auxiliary-services/elc",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
         "notes": "Phone: (413) 559-5706. Email: hcelc@hampshire.edu. Apply via waitlist application on website."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures"]
+      "incomplete": ["tuition"]
     },
     {
       "id": "harb-amal-amherst",
@@ -386,19 +386,19 @@
         "enrollmentFee": null,
         "siblingDiscount": null,
         "notes": null,
-        "subsidyAccepted": null
+        "subsidyAccepted": true
       },
       "schedule": "part-time",
       "priorityAffiliation": null,
       "summerClosures": null,
       "homeBased": false,
       "waitlist": null,
-      "description": "After-school childcare program serving school-age children.",
+      "description": "After-school childcare program serving school-age children. A separate summer activities program is also available.",
       "source": {
         "url": null,
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 549-8406. After-school program; hours and exact age range should be verified."
+        "notes": "Phone: (413) 549-8406. After-school hours to be verified. A separate summer activities program (capacity 99) is also EEC-licensed."
       },
       "incomplete": ["hours", "tuition", "summerClosures", "waitlist", "source.url"]
     },
@@ -425,20 +425,20 @@
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
-        "subsidyAccepted": null
+        "notes": "Does not participate in subsidized childcare voucher program.",
+        "subsidyAccepted": false
       },
       "schedule": "part-time",
       "priorityAffiliation": null,
       "summerClosures": null,
       "homeBased": false,
       "waitlist": null,
-      "description": "After-school childcare program at Crocker Farm Elementary School serving school-age children.",
+      "description": "After-school childcare program at Crocker Farm Elementary School serving school-age children. Does not accept childcare vouchers.",
       "source": {
         "url": null,
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 259-3177. After-school program; hours and exact age range should be verified."
+        "notes": "Phone: (413) 259-3177. After-school hours to be verified."
       },
       "incomplete": ["hours", "tuition", "summerClosures", "waitlist", "source.url"]
     },

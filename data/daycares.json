@@ -57,30 +57,30 @@
         "daysOfWeek": []
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 3,
+        "maxYears": 12
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
+        "notes": "Peg Smith Scholarship Fund available for financial assistance.",
         "subsidyAccepted": null
       },
       "schedule": null,
       "priorityAffiliation": null,
-      "summerClosures": null,
+      "summerClosures": "Summer Discovery program available in summer.",
       "homeBased": false,
       "waitlist": null,
-      "description": null,
+      "description": "Authentic Montessori programs from infant through elementary. Programs include Infant/Toddler (3 months–3 years), Children's House (3–6 years), and Elementary (6–12 years). Spanish language immersion available for ages 3–6.",
       "source": {
-        "url": null,
+        "url": "https://amherstmontessori.org/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
         "notes": "Phone: (413) 253-3101"
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["hours", "tuition", "schedule", "waitlist"]
     },
     {
       "id": "capacidad-fort-river-amherst",
@@ -132,35 +132,35 @@
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "8:15am",
+        "endTime": "4:15pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 15,
+        "maxYears": 5
       },
       "tuition": {
-        "perWeek": null,
+        "perWeek": 390,
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
-        "subsidyAccepted": null
+        "notes": "Weekly rates vary by age and days enrolled. Toddler: $239 (3-day), $317 (4-day), $390 (5-day). Preschool: $221 (3-day), $294 (4-day), $361 (5-day). UMass students may qualify for subsidized rates based on income. Payroll deduction available.",
+        "subsidyAccepted": true
       },
-      "schedule": null,
+      "schedule": "both",
       "priorityAffiliation": "UMass Amherst faculty, staff, and students",
-      "summerClosures": null,
+      "summerClosures": "Open year-round",
       "homeBased": false,
-      "waitlist": null,
-      "description": "University-operated childcare center on the UMass Amherst campus. Priority enrollment for UMass-affiliated families.",
+      "waitlist": true,
+      "description": "University-operated childcare center on the UMass Amherst campus serving over 90 children from 15 months through 5 years. Offers 3-day, 4-day, and 5-day enrollment options. Priority for UMass-affiliated families; community families also welcome.",
       "source": {
-        "url": null,
+        "url": "https://www.umass.edu/early-education-care/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
         "notes": "Phone: (413) 545-1566"
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "waitlist", "source.url"]
+      "incomplete": ["tuition.enrollmentFee"]
     },
     {
       "id": "community-action-amherst-child-care",
@@ -172,35 +172,35 @@
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "7:00am",
+        "endTime": "5:00pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 2,
+        "maxYears": 5
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
+        "notes": "Early Head Start and Head Start program. Income eligibility requirements apply. Contact enrollment department at (413) 387-1250 or hselpenrollment@communityaction.us.",
         "subsidyAccepted": true
       },
-      "schedule": null,
+      "schedule": "both",
       "priorityAffiliation": null,
-      "summerClosures": null,
+      "summerClosures": "Open year-round",
       "homeBased": false,
       "waitlist": null,
-      "description": "Nonprofit childcare center operated by Community Action Pioneer Valley. Accepts childcare subsidies and vouchers.",
+      "description": "Early Head Start and Head Start program providing full-day and part-day childcare for children 6 weeks to 5 years. Income eligibility requirements apply. Operated by Community Action Pioneer Valley.",
       "source": {
-        "url": null,
+        "url": "https://www.communityaction.us/amherst-community-child-care/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
         "notes": "Phone: (413) 548-1288"
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "waitlist", "source.url"]
+      "incomplete": ["tuition", "waitlist"]
     },
     {
       "id": "cushman-scott-childrens-center-amherst",
@@ -208,39 +208,39 @@
       "organization": null,
       "location": {
         "town": "Amherst",
-        "address": "71 Henry St, Amherst, MA 01002",
+        "address": "71 Henry St, North Amherst, MA 01059",
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "8:00am",
+        "endTime": "5:30pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 15,
+        "maxYears": 6
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
+        "notes": "Tuition calculator available on website. Contact director@cushmanscott.org for rates.",
         "subsidyAccepted": null
       },
-      "schedule": null,
+      "schedule": "both",
       "priorityAffiliation": null,
-      "summerClosures": null,
+      "summerClosures": "Summer program available.",
       "homeBased": false,
       "waitlist": null,
-      "description": null,
+      "description": "Small, non-profit Reggio Emilia inspired educational center in North Amherst. Children ages 15 months–6 years. Families choose which days and hours their child attends. Optional extended-day and summer programs available.",
       "source": {
-        "url": null,
+        "url": "https://www.cushmanscott.org",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 549-1167"
+        "notes": "Phone: (413) 549-1167. Contact: director@cushmanscott.org."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["tuition", "waitlist"]
     },
     {
       "id": "hampshire-college-early-learning-center",
@@ -265,22 +265,22 @@
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
+        "notes": "Tuition billed monthly, one month in advance.",
         "subsidyAccepted": null
       },
       "schedule": null,
-      "priorityAffiliation": "Hampshire College employees",
+      "priorityAffiliation": "Hampshire College families and Five College Consortium affiliates",
       "summerClosures": null,
       "homeBased": false,
-      "waitlist": null,
-      "description": "Childcare center on the Hampshire College campus with priority enrollment for college employees.",
+      "waitlist": true,
+      "description": "Licensed childcare center on the Hampshire College campus serving up to 44 children (infants through preschool). Opened in 1981. Priority for Hampshire College families and Five College Consortium affiliates; community families also welcome.",
       "source": {
-        "url": null,
+        "url": "https://www.hampshire.edu/offices/finance/departments/auxiliary-services/elc",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 559-5706"
+        "notes": "Phone: (413) 559-5706. Email: hcelc@hampshire.edu. Apply via waitlist application on website."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "waitlist", "source.url"]
+      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures"]
     },
     {
       "id": "harb-amal-amherst",
@@ -444,43 +444,43 @@
     },
     {
       "id": "renaissance-school-amherst",
-      "name": "Renaissance School Inc.",
-      "organization": null,
+      "name": "Renaissance Preschool",
+      "organization": "Renaissance School Inc.",
       "location": {
         "town": "Amherst",
         "address": "867 N Pleasant St, Amherst, MA 01002",
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "9:00am",
+        "endTime": "12:00pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 35,
+        "maxYears": 5
       },
       "tuition": {
         "perWeek": null,
         "perMonth": null,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
+        "notes": "Described as one of the most affordable preschools in the area. Contact for current rates.",
         "subsidyAccepted": null
       },
-      "schedule": null,
+      "schedule": "part-time",
       "priorityAffiliation": null,
-      "summerClosures": null,
+      "summerClosures": "Closed June through August. Open September through May only.",
       "homeBased": false,
       "waitlist": null,
-      "description": null,
+      "description": "Small morning preschool offering a play-based curriculum for children ages 2 years 9 months to 5 years. Located in the lower level of Immanuel Lutheran Church near the UMass campus. One of the most affordable preschool options in the area. Children may enroll any time upon reaching 2 years 9 months.",
       "source": {
-        "url": null,
+        "url": "https://www.renaissancepreschoolamherst.com/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 548-9696"
+        "notes": "Phone: (413) 548-9696. Director: Dotty Meyer (DottyMeyer@gmail.com)."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["tuition", "waitlist"]
     },
     {
       "id": "riahi-celia-amherst",
@@ -537,8 +537,8 @@
         "daysOfWeek": []
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 33,
+        "maxYears": 5
       },
       "tuition": {
         "perWeek": null,
@@ -548,19 +548,19 @@
         "notes": null,
         "subsidyAccepted": null
       },
-      "schedule": null,
+      "schedule": "part-time",
       "priorityAffiliation": null,
       "summerClosures": null,
       "homeBased": false,
       "waitlist": null,
-      "description": null,
+      "description": "Child-centered preschool founded in 1959, governed by a parent board. Serves children ages 2 years 9 months to 5 years. Located in downtown Amherst. Offers flexible scheduling options.",
       "source": {
-        "url": null,
+        "url": "https://www.springstreetpreschool.com/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 256-8442"
+        "notes": "Phone: (413) 256-8442. Email: springstreetpreschool@gmail.com."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["hours", "tuition", "summerClosures", "waitlist"]
     },
     {
       "id": "suarez-dania-amherst",
@@ -652,35 +652,35 @@
         "region": "Hampshire"
       },
       "hours": {
-        "startTime": null,
-        "endTime": null,
-        "daysOfWeek": []
+        "startTime": "8:00am",
+        "endTime": "5:00pm",
+        "daysOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
       },
       "ages": {
-        "minMonths": null,
-        "maxYears": null
+        "minMonths": 1,
+        "maxYears": 5
       },
       "tuition": {
         "perWeek": null,
-        "perMonth": null,
+        "perMonth": 1980,
         "enrollmentFee": null,
         "siblingDiscount": null,
-        "notes": null,
+        "notes": "Tuition by age group (2025–2026): Infant $1,980/mo, Toddler $1,790/mo, Preschool $1,545/mo. Reduced rates for 3- or 4-day enrollment.",
         "subsidyAccepted": null
       },
-      "schedule": null,
-      "priorityAffiliation": null,
-      "summerClosures": null,
+      "schedule": "both",
+      "priorityAffiliation": "Amherst College community",
+      "summerClosures": "Open year-round. Summer hours (late June–mid August): 8:30am–4:30pm.",
       "homeBased": false,
       "waitlist": null,
-      "description": null,
+      "description": "Private, non-profit childcare center housed in a Victorian home near Amherst College. Serves infants (4 weeks) through preschoolers. Emphasis on play-based learning in a culturally diverse environment. Operating for more than 25 years.",
       "source": {
-        "url": null,
+        "url": "https://www.woodsidechildrenscenter.org/",
         "lastVerified": "2026-05-11",
         "sourceList": "EEC Licensed Provider Directory",
-        "notes": "Phone: (413) 253-2604"
+        "notes": "Phone: (413) 253-2604. Email: Woodside155office@yahoo.com."
       },
-      "incomplete": ["hours", "ages", "tuition", "schedule", "summerClosures", "description", "waitlist", "source.url"]
+      "incomplete": ["waitlist", "tuition.subsidyAccepted", "tuition.enrollmentFee"]
     },
     {
       "id": "wu-huey-amherst",
